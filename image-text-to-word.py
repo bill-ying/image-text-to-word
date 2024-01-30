@@ -16,7 +16,7 @@ def main(input_folder, output_file):
             text = pytesseract.image_to_string(image)
             document.add_paragraph(text)
 
-    document.save(output_file)
+    document.save(os.path.join(input_folder, output_file))
 
 
 if __name__ == "__main__":
