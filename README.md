@@ -9,7 +9,7 @@ The program depends on packages:
 - python-docx
 - pillow
 
-Following program must be installed on the computer
+Following program must be installed on the computer:
 - tesseract-ocr
 
 Example:
