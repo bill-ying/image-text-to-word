@@ -17,7 +17,7 @@ Example:
 
 
 The source code includes the necessary files to create a docker image.  The docker image of this program can be pulled from docker hub:
-- https://docker.com/billying/image-text-to-word
+- https://hub.docker.com/r/billying/image-text-to-word
 
 Example of running docker container:
 - docker run -v ~/images:/images billying/image-text-to-word /images output.docx
