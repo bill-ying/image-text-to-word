@@ -12,8 +12,11 @@ The program depends on packages:
 Following program must be installed on the computer:
 - tesseract-ocr
 
+Usage:
+- python image_text_to_word <image_folder> <word_document.docx>
+
 Example:
-- python image-text-to-word ~/images output.docx
+- python image_text_to_word ~/images output.docx
 
 
 The source code includes the necessary files to create a docker image.  The docker image of this program can be pulled from docker hub:
